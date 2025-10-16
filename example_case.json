@@ -1,0 +1,40 @@
+{
+    "case_id": "CASE_0001",
+    "synthetic": true,
+    "patient": {
+      "age": 65,
+      "sex": "male",
+      "setting": "primary_care"
+    },
+    "presenting_complaint": "Generalized fatigue and bilateral leg swelling for several months.",
+    "symptoms": [
+      "Fatigue",
+      "Bilateral lower extremity edema",
+      "Decreased appetite",
+      "Nocturia"
+    ],
+    "vitals": {
+      "hr": 88,
+      "bp_systolic": 155,
+      "bp_diastolic": 92,
+      "temp_c": 36.8,
+      "spo2": 96
+    },
+    "labs": {
+      "creatinine": "2.8 mg/dL",
+      "egfr": "25 mL/min/1.73m^2",
+      "bun": "65 mg/dL",
+      "potassium": "5.6 mEq/L",
+      "hemoglobin": "10.2 g/dL",
+      "urine_protein_creatinine_ratio": "1.8 g/g"
+    },
+    "final_diagnosis": "ckd",
+    "reasoning_steps": [
+      "Patient presents with classic symptoms of kidney dysfunction including fatigue and edema.",
+      "Vital signs reveal uncontrolled hypertension, a common comorbidity and progression factor in CKD.",
+      "Lab results show significantly elevated creatinine and BUN, indicating impaired kidney function.",
+      "eGFR is severely reduced (25 mL/min/1.73m^2), consistent with CKD Stage 4.",
+      "Hyperkalemia and anemia, also observed in labs, are frequent complications of advanced CKD.",
+      "Significant proteinuria further supports the diagnosis of Chronic Kidney Disease."
+    ]
+  }
